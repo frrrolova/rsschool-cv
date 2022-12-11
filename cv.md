@@ -53,9 +53,9 @@ function sumArray(array) {
 
 ## Studing projects:
 
-https://gitlab.com/t_frrolova/layout-practice/-/tree/develop (HTML, css/scss)
-https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam (JS)
-https://gitlab.com/t_frrolova/module-react/-/tree/develop (React, Redux)
+- https://gitlab.com/t_frrolova/layout-practice/-/tree/develop (HTML, css/scss)
+- https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam (JS)
+- https://gitlab.com/t_frrolova/module-react/-/tree/develop (React, Redux)
 
 ## Education:
 
