@@ -1,8 +1,8 @@
-#Tatiana Frolova
+# Tatiana Frolova
 
 ---
 
-##Contact info:
+## Contact info:
 
 - **Phone number:** +905352356371
 - **E-Mail:** tatianaaleks.frolova@gmail.com
@@ -10,11 +10,11 @@
 - **GitHub:** frrrolova
 - **Discord** Tania (@frrrolova)
 
-##About myself:
+## About myself:
 
 I love to learn new and challenging tasks. I started to learn frontend development at May 2022. I took a course in frontend development on the Innopolis learning platform. I feel most confident in layout, css/scss, BEM. Now I want to improve my knowlege of JS and React
 
-##Skills:
+## Skills:
 
 - HTML5
 - CSS (SASS/SCSS, BEM)
@@ -24,7 +24,7 @@ I love to learn new and challenging tasks. I started to learn frontend developme
 - Git
 - GitHub/GitLab
 
-##Code example:
+## Code example:
 
 ```javascript
 /* Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
@@ -51,17 +51,17 @@ function sumArray(array) {
 }
 ```
 
-##Studing projects:
+## Studing projects:
 
 https://gitlab.com/t_frrolova/layout-practice/-/tree/develop (HTML, css/scss)
 https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam (JS)
 https://gitlab.com/t_frrolova/module-react/-/tree/develop (React, Redux)
 
-##Education:
+## Education:
 
 Innopolis University course of Frontend Development
 
-##Languages:
+## Languages:
 
 - English (Pre-Intermediate)
 - Russian (native)
