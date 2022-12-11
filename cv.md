@@ -4,11 +4,11 @@
 
 ##Contact info:
 
-**Phone number:** +905352356371
-**E-Mail:** tatianaaleks.frolova@gmail.com
-**Location:** Turkey, Istanbul
-**GitHub:** frrrolova
-**Discord** Tania (@frrrolova)
+- **Phone number:** +905352356371
+- **E-Mail:** tatianaaleks.frolova@gmail.com
+- **Location:** Turkey, Istanbul
+- **GitHub:** frrrolova
+- **Discord** Tania (@frrrolova)
 
 ##About myself:
 
@@ -53,8 +53,9 @@ function sumArray(array) {
 
 ##Studing projects:
 
-https://gitlab.com/t_frrolova/layout-practice/-/tree/develop (html, css/scss)
-https://gitlab.com/t_frrolova/module-react/-/tree/develop (react, redux)
+https://gitlab.com/t_frrolova/layout-practice/-/tree/develop (HTML, css/scss)
+https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam (JS)
+https://gitlab.com/t_frrolova/module-react/-/tree/develop (React, Redux)
 
 ##Education:
 
