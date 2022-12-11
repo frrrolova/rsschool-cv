@@ -64,3 +64,5 @@ Innopolis University course of Frontend Development
 
 - English (Pre-Intermediate)
 - Russian (native)
+
+![it's me](https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gOO2-cXTzyzWnoEpPO1ONeRnZw3vWkjHUmcbzDbarMdjcv82hHqZ9tfngl_K6Z-OnxOrgGPJyXh1jCQmV8ETrq39XS9=w1920-h902)
