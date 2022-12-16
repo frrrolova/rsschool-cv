@@ -6,7 +6,7 @@
 
 - **Phone number:** +905352356371
 - **E-Mail:** tatianaaleks.frolova@gmail.com
-- **Location:** Turkey, Istanbul
+- **E-Mail:** Turkey, Istanbul
 - **GitHub:** frrrolova
 - **Discord** Tania (@frrrolova)
 
