@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./asserts/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
+
   <body>
-    <header class="header">
+
+    <header class="header container">
       <img src="./asserts/img/me.jpg" alt="Photo" class="header__photo">
 
       <div class="header__info">
@@ -24,9 +28,9 @@
 
           <ul>
             <li><span class="contact__title">Phone number:</span> +905352356371</li>
-            <li><span class="contact__title">E-Mail:</span> tatianaaleks.frolova@gmail.com</li>
+            <li><span class="contact__title">E-Mail:</span> tatianaaleks .frolova@gmail.com</li>
             <li><span class="contact__title">Location:</span> Turkey, Istanbul</li>
-            <li><span class="contact__title">GitHub:</span> frrrolova</li>
+            <li><span class="contact__title">GitHub:</span> https://github.com/frrrolova</li>
             <li><span class="contact__title">Discord:</span> Tania (@frrrolova)</li>
           </ul>
 
@@ -34,7 +38,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="main container">
       <nav class="navigation-wrapper">
         <ul class="navigation">
 
@@ -96,8 +100,8 @@
           Code
         </h2>
 
-        <code>
-          <pre class="code">
+        <pre class="code">
+          <code>
 
             function sumArray(array) {
               if (!array) {
@@ -118,8 +122,8 @@
                 return acc + currentValue;
               }, 0);
             }
-          </pre>
-        </code>
+          </code>
+        </pre>
       </section>
 
       <section class="section">
@@ -177,13 +181,13 @@
     </main>
 
     <footer class="footer">
-      <a href="https://github.com/frrrolova">
+      <a href="https://github.com/frrrolova" target="_blank">
         <img src="./asserts/img/github.svg" alt="github-logo" class="footer__logo">
       </a>
 
       2022, December
 
-      <a href="https://rs.school/js/">
+      <a href="https://rs.school/js/" target="_blank">
         <img src="./asserts/img/rs-logo.svg" alt="rss-logo" class="footer__logo">
       </a>
     </footer>

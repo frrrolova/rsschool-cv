@@ -1,24 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
   color: #373636;
-  margin: 0 100px;
-  padding: 0;
+  scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
   color: #000;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #509a5adc;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .header {
   display: flex;
-  margin-bottom: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0 20px 0;
 }
 
 .header__info {
@@ -29,7 +48,7 @@ a {
 
 .header__photo {
   height: 400px;
-  margin-right: 50px;
+  border-radius: 3px;
 }
 
 .header__title {
@@ -50,6 +69,7 @@ a {
 .navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style-type: none;
   padding: 15px 0;
 }
@@ -61,21 +81,25 @@ a {
 }
 
 .navigation__item:hover {
+  text-shadow: 3px 4px 8px #868585;
   cursor: pointer;
-  text-shadow:3px 4px 8px #868585;
 }
 
 .section {
+  z-index: 1;
   position: relative;
   padding-bottom: 50px;
   border-bottom: 2px solid #509a5ab7;
-  z-index: 1;
+}
+
+.section:last-of-type {
+  border-bottom: none;
 }
 
 .transparent-anchor {
   position: absolute;
-  height: 70px;
   top: -70px;
+  height: 70px;
 }
 
 .section__header {
@@ -83,18 +107,36 @@ a {
 }
 
 .code {
-  background-color: #eae9e9;
   border-radius: 3px;
+  background-color: #509a5a41;
 }
 
 .footer {
-  height: 60px;
-  padding-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  height: 60px;
+  border-top: 2px solid #509a5ab7;
+  padding-top: 10px;
+  background-color: #74767458;
 }
 
 .footer__logo {
   height: 30px;
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 100vw;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  .navigation-wrapper {
+    max-width: 100vw;
+    display: none;
+  }
 }
