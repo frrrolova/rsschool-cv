@@ -1,12 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  Hello world!
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./asserts/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <header class="header container">
+      <img src="./asserts/img/me.jpg" alt="Photo" class="header__photo">
+
+      <div class="header__info">
+
+        <h1 class="header__title">
+          Tatiana Frolova
+        </h1>
+
+        <section class="contacts">
+          <h3>
+            Contact info:
+          </h3>
+
+          <ul>
+            <li><span class="contact__title">Phone number:</span> +905352356371</li>
+            <li><span class="contact__title">E-Mail:</span> tatianaaleks .frolova@gmail.com</li>
+            <li><span class="contact__title">Location:</span> Turkey, Istanbul</li>
+            <li><span class="contact__title">GitHub:</span> https://github.com/frrrolova</li>
+            <li><span class="contact__title">Discord:</span> Tania (@frrrolova)</li>
+          </ul>
+
+        </section>
+      </div>
+    </header>
+
+    <main class="main container">
+      <nav class="navigation-wrapper">
+        <ul class="navigation">
+
+          <li class="navigation__item">
+            <a href="#about">About myself</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#skills">Skills</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#code">Code</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#education">Education</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#lang">Languages</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="section">
+        <div class="transparent-anchor" id="about"></div>
+
+        <h2 class="section__header">
+          About myself
+        </h2>
+        I love to learn new and challenging tasks. I started to learn frontend development at May 2022. I took a course in frontend development on the Innopolis learning platform. I feel most confident in layout, css/scss, BEM. Now I want to improve my knowlege of JS and React
+      </section>
+
+      <section class="section">
+        <div class="transparent-anchor" id="skills"></div>
+
+        <h2 class="section__header">
+          Skills
+        </h2>
+
+        <ul>
+          <li>HTML5</li>
+          <li>CSS (SASS/SCSS, BEM)</li>
+          <li>JS (basic knowledge)</li>
+          <li>React.JS, Redux (basic knowledge)</li>
+          <li>Figma</li>
+          <li>Git</li>
+          <li>GitHub/GitLab</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="transparent-anchor" id="code"></div>
+
+        <h2 class="section__header">
+          Code
+        </h2>
+
+        <pre class="code">
+          <code>
+
+            function sumArray(array) {
+              if (!array) {
+                return 0;
+              }
+
+              function compareNum(a, b) {
+                return a - b;
+              }
+
+              array.sort(compareNum);
+
+              return array.reduce(function (acc, currentValue, index) {
+                if (index == 0 || index == array.length - 1) {
+                  return acc + 0;
+                }
+
+                return acc + currentValue;
+              }, 0);
+            }
+          </code>
+        </pre>
+      </section>
+
+      <section class="section">
+        <div class="transparent-anchor" id="projects"></div>
+        <h2 class="section__header">
+          Projects
+        </h2>
+
+        <ul>
+          <li>
+            <a href="https://gitlab.com/t_frrolova/layout-practice/-/tree/develop">https://gitlab.com/t_frrolova/layout-practice/-/tree/develop</a> (HTML, css/scss)
+          </li>
+
+          <li>
+            <a href="https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam">https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam</a> (HTML, css/scss)
+          </li>
+
+          <li>
+            <a href="https://gitlab.com/t_frrolova/module-react/-/tree/develop">https://gitlab.com/t_frrolova/module-react/-/tree/develop</a> (HTML, css/scss)
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="transparent-anchor" id="education"></div>
+
+        <h2 class="section__header">
+          Education
+        </h2>
+
+        <ul>
+          <li>
+            Innopolis University course of Frontend Development
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <div class="transparent-anchor" id="lang"></div>
+        <h2 class="section__header">
+          Languages
+        </h2>
+
+        <ul>
+          <li>
+            English (Pre-Intermediate)
+          </li>
+
+          <li>
+            Russian (native)
+          </li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/frrrolova" target="_blank">
+        <img src="./asserts/img/github.svg" alt="github-logo" class="footer__logo">
+      </a>
+
+      2022, December
+
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="./asserts/img/rs-logo.svg" alt="rss-logo" class="footer__logo">
+      </a>
+    </footer>
+  </body>
 </html>
