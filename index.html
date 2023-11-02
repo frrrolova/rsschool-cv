@@ -18,14 +18,22 @@
   </head>
 
   <body>
-    <header class="header container">
-      <img src="./assets/img/me.jpg" alt="Photo" class="header__photo" />
+    <header class="header">
+      <div class="cursor-helper"></div>
+      <h1 class="header__title"> Tatiana Frolova </h1>
+    </header>
+    <div class="stripe-green"></div>
+    <div class="stripe-green stripe-green--light"></div>
+    <div class="stripe-white"></div>
+    <div class="stripe-white stripe-white--light"></div>
+    <div class="stripe-horizontal"></div>
+    <main class="main container">
+      <img src="./assets/img/me1.jpg" alt="Photo" class="main__photo" />
 
-      <div class="header__info">
-        <h1 class="header__title"> Tatiana Frolova </h1>
+      <div class="main__info">
 
-        <section class="contacts">
-          <h3> Contact info: </h3>
+        <div class="contacts">
+          <h3 class="contacts__title"> Contact info: </h3>
 
           <ul>
             <li
@@ -50,11 +58,11 @@
               (@frrrolova)</li
             >
           </ul>
-        </section>
+        </div>
       </div>
-    </header>
+    </main>
 
-    <main class="main container">
+    <div class="container">
       <nav class="navigation-wrapper">
         <ul class="navigation">
           <li class="navigation__item">
@@ -85,13 +93,7 @@
         <div class="transparent-anchor" id="about"></div>
 
         <h2 class="section__header"> About myself </h2>
-        I love to learn new and challenging tasks. I started to learn frontend
-        development at May 2022. I took a course in frontend development on the
-        Innopolis University learning platform. During the course I learned HTML
-        CSS, the BEM concept, JS, git basics, React and redux. In March 2023 I
-        came to RSSchool to improve my skills in html, css and js. It always
-        seemed like magic to me to create websites and apps out of nothing, and
-        now I love to feel myself like a little bit of a wizard.
+        I'm Junior-Frontend developer with learning experience of 1 year. I love to learn new and challenging tasks. I Realized myself, as well as under the guidance of more experienced developers, several small sites and web-applications. I learn quickly - I can learn new technologies in a short time. I am punctual, diligent, take on tasks with enthusiasm and strive to bring them to the end.  I like clean code and adhere to the principles of KISS, DRY. I can accept constructive criticism, as I consider it a great opportunity for professional growth.
       </section>
 
       <section class="section">
@@ -100,30 +102,45 @@
         <h2 class="section__header"> Skills </h2>
 
         <ul>
-          <li class="skills-item"
+          <li class="skill"
             ><span class="marker">◦</span
-            ><img src="./assets/img/html-5.png" alt="html5" class="skill-img"
-          /></li>
-          <li class="skills-item"
+            ><img src="./assets/img/html-5.png" alt="html5" class="skill__img"
+          />
+          <span class="skill__description"> - I know how to layout beautiful adaptive sites;</span>
+        </li>
+          <li class="skill"
             ><span class="marker">◦</span
-            ><img src="./assets/img/css-3.png" alt="css" class="skill-img" />
-            <img src="./assets/img/sass.png" alt="scss" class="skill-img" />
+            >
+            <div class="skill__img-wrapper">
+              <img src="./assets/img/css-3.png" alt="css" class="skill__img" />
+              <img src="./assets/img/sass.png" alt="scss" class="skill__img" />
+            </div>
+            <span class="skill__description"> - know how to use preprocessor features</span>
           </li>
-          <li class="skills-item">
+          <li class="skill">
             <span class="marker">◦</span
-            ><img src="./assets/img/js.png" alt="js" class="skill-img" />
-            <img src="./assets/img/ts.png" alt="ts" class="skill-img" />
+            >
+            <div class="skill__img-wrapper">
+              <img src="./assets/img/js.png" alt="js" class="skill__img" />
+              <img src="./assets/img/ts.png" alt="ts" class="skill__img" />
+            </div>
+            <span class="skill__description"> - know and use most array methods, use promises for asynchronous tasks, know how Event loop works. I know how to add types to JS;</span>
           </li>
-          <li class="skills-item"
+          <li class="skill"
             ><span class="marker">◦</span
-            ><img src="./assets/img/react.png" alt="react" class="skill-img"
-          /></li>
-          <li class="skills-item"
+            ><img src="./assets/img/react.png" alt="react" class="skill__img"
+          />
+          <span class="skill__description"> - know how to split a project into components, apply and create hooks;</span>
+        </li>
+          <li class="skill"
             ><span class="marker">◦</span
-            ><img src="./assets/img/git.png" alt="git" class="skill-img"
-          /></li>
-          <li class="skills-item"><span class="marker">◦</span> Figma</li>
-          <li class="skills-item"><span class="marker">◦</span> Webpack</li>
+            ><img src="./assets/img/git.png" alt="git" class="skill__img"
+          />
+          <span class="skill__description"> - know the basic commands;</span>
+        </li>
+          <li class="skill"><span class="marker">◦</span> Webpack <span class="skill__description"> - know how to use project builders;</span></li>
+          <li class="skill"><span class="marker">◦</span> BEM <span class="skill__description"> - know how to structure CSS classes and elements;</span></li>
+          <li class="skill"><span class="marker">◦</span> OOP <span class="skill__description"> - know the basics of OOP;</span></li>
         </ul>
       </section>
 
@@ -211,7 +228,7 @@
           <li> Russian (native) </li>
         </ul>
       </section>
-    </main>
+    </div>
 
     <footer class="footer">
       <a href="https://github.com/frrrolova" target="_blank">
@@ -222,7 +239,7 @@
         />
       </a>
 
-      2023, August
+      <span class="footer__date">2023, November</span>
 
       <a href="https://rs.school/js/" target="_blank">
         <img
