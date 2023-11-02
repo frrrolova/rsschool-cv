@@ -12,17 +12,18 @@
 
 ## About myself:
 
-I love to learn new and challenging tasks. I started to learn frontend development at May 2022. I took a course in frontend development on the Innopolis learning platform. I feel most confident in layout, css/scss, BEM. Now I want to improve my knowlege of JS and React
+I'm Junior-Frontend developer with learning experience of 1 year. I love to learn new and challenging tasks. I Realized myself, as well as under the guidance of more experienced developers, several small sites and web-applications. I learn quickly - I can learn new technologies in a short time. I am punctual, diligent, take on tasks with enthusiasm and strive to bring them to the end.  I like clean code and adhere to the principles of KISS, DRY. I can accept constructive criticism, as I consider it a great opportunity for professional growth.
 
 ## Skills:
 
 - HTML5
-- CSS (SASS/SCSS, BEM)
-- JS (basic knowledge)
-- React.JS, Redux (basic knowledge)
-- Figma
+- CSS (SASS/SCSS)
+- JS, TS
+- React
+- Webpack
 - Git
-- GitHub/GitLab
+- BEM
+- OOP
 
 ## Code example:
 
@@ -53,17 +54,19 @@ function sumArray(array) {
 
 ## Studing projects:
 
-- https://gitlab.com/t_frrolova/layout-practice/-/tree/develop (HTML, css/scss)
-- https://gitlab.com/t_frrolova/module_two_javascript/-/tree/exam (JS)
-- https://gitlab.com/t_frrolova/module-react/-/tree/develop (React, Redux)
+- https://rolling-scopes-school.github.io/frrrolova-JSFE2023Q1/minesweeper/index.html
+- https://frrrolova.github.io/virtual-keyboard/
+- https://rolling-scopes-school.github.io/frrrolova-JSFE2023Q1/rss-css-selectors/index.html
 
 ## Education:
 
-Innopolis University course of Frontend Development
+- St. Petersburg Pediatric Medical University
+- Innopolis University course of Frontend Development
+- RSSchool JS Frontend course
 
 ## Languages:
 
-- English (Pre-Intermediate)
+- English (B1-B2)
 - Russian (native)
 
 ![it's me](https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gOO2-cXTzyzWnoEpPO1ONeRnZw3vWkjHUmcbzDbarMdjcv82hHqZ9tfngl_K6Z-OnxOrgGPJyXh1jCQmV8ETrq39XS9=w1920-h902)
