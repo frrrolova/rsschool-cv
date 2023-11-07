@@ -28,27 +28,18 @@ I'm Junior-Frontend developer with learning experience of 1 year. I love to lear
 ## Code example:
 
 ```javascript
-/* Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
-The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.*/
+/*  Define the Array.reduce method..*/
 
-function sumArray(array) {
-  if (!array) {
-    return 0;
-  }
-
-  function compareNum(a, b) {
-    return a - b;
-  }
-
-  array.sort(compareNum);
-
-  return array.reduce(function (acc, currentValue, index) {
-    if (index == 0 || index == array.length - 1) {
-      return acc + 0;
+Array.prototype.reduce = function(func, start) {
+  let acc = start;
+  for (let i = 0; i < this.length; i ++) {
+    if (acc === undefined) {
+      acc = this[0];
+    } else {
+      acc = func.call(this, acc, this[i], i, this);
     }
-
-    return acc + currentValue;
-  }, 0);
+  }
+  return acc;
 }
 ```
 
