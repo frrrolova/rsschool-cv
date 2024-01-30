@@ -6,7 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   position: relative;
   display: flex;
@@ -97,7 +96,7 @@ a:hover {
   padding-right: 3px;
 }
 
-.cursor-helper::after{
+.cursor-helper::after {
   position: absolute;
   right: -100px;
   top: 0;
@@ -196,7 +195,7 @@ a:hover {
 }
 
 .navigation__item:hover {
-  text-shadow: 3px 4px 8px #868585;
+  text-shadow: 1px 1px 3px #868585;
   cursor: pointer;
 }
 
@@ -233,7 +232,7 @@ a:hover {
 }
 
 .code__example {
-  padding: 15px 0 0 0 ;
+  padding: 15px 0 0 0;
   border-radius: 15px;
   background-color: #509a5a24;
   color: #373636b8;
@@ -302,7 +301,8 @@ a:hover {
 }
 
 @media (max-width: 1120px) {
-  .stripe-green, .stripe-white {
+  .stripe-green,
+  .stripe-white {
     display: none;
   }
 }
@@ -327,22 +327,33 @@ a:hover {
 }
 
 @keyframes descentGreen {
-  0% {transform: translateY(-100vh)}
-  100% {transform: translateY(0)}
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes descentWhite {
-  0% {transform: translateY(-70px)}
-  100% {transform: translateY(0)}
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes right {
-  0% {transform: translateX(-100vw)}
-  100% {transform: translateX(0)}
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes cursor {
-
   0% {
     border-color: #ffffff87;
   }
@@ -354,7 +365,6 @@ a:hover {
   100% {
     border-color: #ffffff87;
   }
-
 }
 
 @keyframes printedText {
